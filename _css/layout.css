@@ -1,0 +1,329 @@
+body {/* Website Background Color*/
+    background-color: #fdfcfa;
+}
+.InfoParas, .InfoTitle {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+}
+        
+#GenInfo {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row;
+}
+
+.List {
+    width: 980px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Name {
+    flex-basis: 20%;
+    cursor: pointer;
+
+}
+
+.Name a {
+    text-decoration: none;
+    color: #000000;
+}
+/*----------------- Navigation --------------------*/ 
+.navBar {
+    width: 980px;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    color: #000000;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    font-weight: bold;
+
+}
+
+nav ul li, .dropbtn {
+    list-style: none;
+    display: inline-block;
+    margin-left: 48px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    color: #2A9DF4;
+    
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: -17px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #000000;
+    padding: 10px 10px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*----------------- Navigation --------------------*/ 
+
+
+
+/*----------------- Index CSS --------------------*/
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 470px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.image2 {
+    width: 470px;
+    padding-bottom: 50px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 470px;
+    height: 345px;
+    opacity: 0;
+    background-color: #432534;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 18px;
+    line-height: 1em;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.mainHeader {
+    width: 980px;
+    padding: 130px 0px 150px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*----------------- Index CSS --------------------*/
+
+
+
+/*----------------- Arrow CSS --------------------*/
+.arrow {
+    color: #FFFFFF; 
+    border: solid;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    height: 6px;
+    width: 6px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+/*----------------- Arrow CSS --------------------*/
+
+
+
+/*----------------- About CSS --------------------*/
+#rowAbout {
+    width: 980px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 65px;
+}
+
+#aboutMeP {
+    width: 58%;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+#aboutTitle {
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+    padding-right: 120px;
+    
+}
+
+.hl {
+  border-top: 1px solid;
+  width: 980px;
+}
+/*----------------- About CSS --------------------*/
+
+
+
+/*----------------- Footer CSS --------------------*/
+footer {
+    padding: 40px 70px 10px 70px;
+}
+
+#footText {
+    width: 980px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#links {
+    width: 980px;
+    display: flex;
+    align-content: center;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+}
+
+#links a {
+    font-size: 18px;
+    color: #2A9DF4;
+}
+
+#copyRight {
+    width: 87%;
+    display: flex;
+    justify-content: flex-end;
+}
+/*----------------- Footer CSS --------------------*/
+
+
+
+/*----------------- Header Image CSS --------------------*/
+.topImage {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+/*----------------- Header Image CSS --------------------*/
+
+
+
+/*----------------- Husky Bank CSS --------------------*/ 
+#HuskyScreens, #Persona1, #Persona2, #Persona3, #UserFM, #ACS, #Husky1, #Husky2, #Husky3 {
+    width: 980px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+        
+#WF1, #WF2, #WF3, #WF4 {
+    width: 380px;
+    padding-top: 20px;
+}
+
+#PAndC {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: row;
+}
+/*----------------- Husky Bank CSS --------------------*/ 
+
+
+
+/*----------------- Digitizing By Gwen --------------------*/ 
+#ColorPal, #CardSort, #CK1, #CK2, #CK3, #LFMKU, #HFMKU, #Notes, #finalDesign {
+    width: 980px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+#UserProf1, #UserProf2, #UserProf3, #UserProf4 {
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+/*----------------- Digitizing By Gwen --------------------*/ 
+
+
+
+/*----------------- All Possible Futures --------------------*/
+#SeniorCapWF {
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.UserCases {
+    width: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+/*----------------- All Possible Futures --------------------*/

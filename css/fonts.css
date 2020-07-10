@@ -4,12 +4,12 @@ body {
 
 @font-face {
     font-family: monoton;
-    src: url('../_fonts/monoton/Monoton-Regular.ttf');
+    src: url('../fonts/monoton/Monoton-Regular.ttf');
 }
 
 @font-face {
     font-family: AkkuratMono;
-    src: url('../_fonts/Akkurat-Mono/Akkurat-Mono.otf');
+    src: url('../fonts/Akkurat-Mono/Akkurat-Mono.otf');
 }
 
 
